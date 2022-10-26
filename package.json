@@ -1,0 +1,22 @@
+{
+  "name": "codercbpv",
+  "version": "1.0.0",
+  "description": "mi primer web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseasan09/coderCBPV.git"
+  },
+  "keywords": [
+    "developer"
+  ],
+  "author": "jose asan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joseasan09/coderCBPV/issues"
+  },
+  "homepage": "https://github.com/joseasan09/coderCBPV#readme"
+}
