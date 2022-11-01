@@ -1,0 +1,79 @@
+#menu {
+	width: 100%;
+	height: auto;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+$color_1: white;
+$font-family_1: Arial, Helvetica, sans-serif;
+$background-color_1: #04AA6D;
+
+@keyframes example {
+	from {
+		background-color: rgb(255, 253, 253);
+	}
+	to {
+		background-color: seagreen;
+	}
+}
+body {
+	font-family: $font-family_1;
+}
+* {
+	box-sizing:border-box;
+}
+input[type=text] {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+select {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+input[type=submit] {
+	background-color: $background-color_1;
+	color: $color_1;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+@mixin bordered($color, $width) {
+    border: $width solid $color;
+  }
+  
+  .tabla {
+    @include bordered(rgba(146, 135, 134, 0.964), 20px); 
+  }
+
+  .tabla1 {
+    @include bordered(#198754, 20px);
+  }
+
+  
+
+  
+              
