@@ -72,4 +72,9 @@ input[type=submit] {
   border: 20px solid #198754;
 }
 
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
 /*# sourceMappingURL=style.css.map */
