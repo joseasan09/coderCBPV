@@ -77,4 +77,11 @@ input[type=submit] {
   height: auto;
 }
 
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .d-grid {
+    border: 8px #04AA6D;
+    background: black;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
