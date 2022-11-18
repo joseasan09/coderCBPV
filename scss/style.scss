@@ -8,7 +8,26 @@
 $color_1: white;
 $font-family_1: Arial, Helvetica, sans-serif;
 $background-color_1: #04AA6D;
-
+#fiesta {
+	width: 100%;
+	height: auto;
+	animation-name: fiesta;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+$color_1: white;
+$font-family_1: Arial, Helvetica, sans-serif;
+$background-color_1: #9104aa;
+#partidos {
+	width: 100%;
+	height: auto;
+	animation-name: partidos;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+$color_1: white;
+$font-family_1: Arial, Helvetica, sans-serif;
+$background-color_1: #aa3004;
 @keyframes example {
 	from {
 		background-color: rgb(255, 253, 253);
@@ -16,6 +35,24 @@ $background-color_1: #04AA6D;
 	to {
 		background-color: seagreen;
 	}
+}
+@keyframes fiesta {
+	from {
+		background-color: seagreen;
+	}
+	to {
+		background-color: #9104aa;
+	}
+	
+}
+@keyframes partidos {
+	from {
+		background-color: #198754;
+	}
+	to {
+		background-color: #aa3004;
+	}
+	
 }
 body {
 	font-family: $font-family_1;

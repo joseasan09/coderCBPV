@@ -6,12 +6,44 @@
   animation-iteration-count: infinite;
 }
 
+#fiesta {
+  width: 100%;
+  height: auto;
+  animation-name: fiesta;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+#partidos {
+  width: 100%;
+  height: auto;
+  animation-name: partidos;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
 @keyframes example {
   from {
     background-color: rgb(255, 253, 253);
   }
   to {
     background-color: seagreen;
+  }
+}
+@keyframes fiesta {
+  from {
+    background-color: seagreen;
+  }
+  to {
+    background-color: #9104aa;
+  }
+}
+@keyframes partidos {
+  from {
+    background-color: #198754;
+  }
+  to {
+    background-color: #aa3004;
   }
 }
 body {
@@ -56,7 +88,7 @@ textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #aa3004;
   color: white;
   padding: 12px 20px;
   border: none;
